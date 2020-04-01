@@ -8,21 +8,7 @@ function openPlayerFromTranscript(e, t, r) {
 }
 </script> -->
 
-<script>
-function openWindow(){
-var browser=navigator.appName;
-if (browser==”Microsoft Internet Explorer”)
-{
-window.opener=self;
-
-}
-window.open(‘https://stevexell2000.github.io/sman1’,'null’,'width=900,height=750,
-toolbar=no,scrollbars=no,location=no,resizable =yes’);
-window.moveTo(0,0);
-window.resizeTo(screen.width,screen.height-100);
-self.close();
-}
-</script>
+<script>window.history.pushState({}, document.title, "/" + NewURL );</script>
 
 </head>
 <body>
